@@ -1,0 +1,38 @@
+package stringPrograms;
+
+import org.testng.annotations.Test;
+
+public class StringArrayFindingVowels {
+
+	
+	@Test
+	public void StringArrayFindingVowels() {
+		
+		//question String str[]={"apple","mango","banana","oragne"}
+		// o/p apple=2
+		//mangao=2
+		//banana=3
+		//oragne=3
+		
+		//sol=there are asking to find the vowel in each string
+		
+		String str[]= {"apple","mango","banana","orange"};
+		
+		int count=0;
+		for(int i=0;i<str.length;i++) {
+			
+			if(str[i].equals('a') || str[i].equals('e') || str[i].equals('i') || str[i].equals('o') || str[i].equals('u')) {
+				
+				count++;
+				
+			}
+		}
+		
+		
+		
+		
+		
+	}
+	
+	
+}

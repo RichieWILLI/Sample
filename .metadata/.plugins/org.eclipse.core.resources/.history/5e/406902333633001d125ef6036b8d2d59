@@ -1,0 +1,27 @@
+package stringPrograms;
+
+import org.testng.annotations.Test;
+
+public class StringArrayFindingVowelSecondRemoveDuplicate {
+
+	
+	@Test
+	public void stringArrayFindingVowelSecondRemoveDuplicate() {
+		
+		
+String str[]= {"apple","mango","banana","orange"};
+		
+		
+		for(int i=0;i<str.length;i++) {
+			char[] s=str[i].toCharArray();
+			int count=0;
+			for(int j=0;j<s.length;j++) {
+				if(s[j]=='a' || s[j]=='e' ||s[j]=='i' || s[j]=='o' || s[j]=='u') {
+					count++;
+				}
+			}
+			System.out.println(str[i]+" "+count);
+
+		}
+	}
+}

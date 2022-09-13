@@ -1,0 +1,19 @@
+package complex_Logical_Program;
+
+import org.testng.annotations.Test;
+
+public class AddEachDigitInNumber {
+	
+	int n=123;
+	int sum=0;
+	
+	@Test
+	public void addEachDigitInNumber() {
+		
+		
+	}
+	
+	
+	
+
+}

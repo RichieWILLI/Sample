@@ -1,0 +1,28 @@
+package complex_Logical_Program;
+
+public class FindTheSumOfEachDigit {
+
+	public static void main(String[] args) {
+		
+		int a=123;
+		int sum=0;
+		int n=0;
+		
+		while(true)
+		{
+			 n=a/100;
+			sum=sum+n;
+			
+			a=a%10;
+			if(a==0)
+				break;
+			
+					
+		}
+		System.out.println(sum);
+		
+		
+		
+	}
+
+}

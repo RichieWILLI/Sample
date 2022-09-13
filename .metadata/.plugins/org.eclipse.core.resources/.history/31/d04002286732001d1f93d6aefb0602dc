@@ -1,0 +1,19 @@
+package ObjectReposatory;
+
+import org.openqa.selenium.support.PageFactory;
+
+import io.appium.java_client.MobileElement;
+import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.pagefactory.AndroidFindBy;
+
+public class HomePage {
+	
+	@AndroidFindBy(id = "com.bigbasket.mobileapp:id/text_start_exploring")
+	private MobileElement exploreBangloreStore;
+	
+	public HomePage(AndroidDriver driver) {
+		PageFactory.initElements(driver, this);
+		
+	}
+
+}

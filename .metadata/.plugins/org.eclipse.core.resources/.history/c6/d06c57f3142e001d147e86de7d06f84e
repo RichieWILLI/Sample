@@ -1,0 +1,10 @@
+package complex_Logical_Program;
+
+public class FindTheSumOfEachDigit {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

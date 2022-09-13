@@ -1,0 +1,16 @@
+package stringPrograms;
+
+public class DuplicateInTwoString {
+
+	public static void main(String[] args) {
+		
+		String s="my name is Raj";
+		String s1="my name is king";
+		
+		String str=s+" "+s1;
+		System.out.println(str);
+		
+		
+	}
+
+}

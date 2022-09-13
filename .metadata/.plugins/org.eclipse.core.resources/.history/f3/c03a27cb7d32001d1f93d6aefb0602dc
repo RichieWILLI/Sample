@@ -1,0 +1,27 @@
+package ObjectReposatory;
+
+import org.openqa.selenium.support.PageFactory;
+
+import io.appium.java_client.MobileElement;
+import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.pagefactory.AndroidFindBy;
+
+public class HomePage2 {
+	AndroidDriver driver;
+
+	@AndroidFindBy(xpath = "(//android.widget.ImageView[@content-desc=\"Product Image\"])[1]")
+	private MobileElement freshFruitModule;
+	
+	public HomePage2(AndroidDriver driver)
+	{
+		this.driver=driver;
+		PageFactory.initElements(driver, this);
+	}
+	
+	public  void scrollToView(String an, String av) {
+		driver.findElementByAndroidUIAutomator("new UiScrollable(new UiSelector()).scrollIntoView("+an+"(\""+av+"\"))");
+		
+
+	}
+	
+}

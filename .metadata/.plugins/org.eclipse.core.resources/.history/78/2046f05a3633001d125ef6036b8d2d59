@@ -1,0 +1,11 @@
+package stringPrograms;
+
+public class RemoveDuplicateAndFindVowelInString {
+
+	public static void main(String[] args) {
+		
+		
+		
+	}
+
+}

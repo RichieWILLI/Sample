@@ -1,0 +1,54 @@
+import java.util.concurrent.TimeUnit;
+
+import org.testng.annotations.Test;
+
+import GenericUtities.BaseClassOfEndToEnd;
+import GenericUtities.DriverMethods;
+import GenericUtities.FileUtilities;
+import GenericUtities.Iconstant;
+import GenericUtities.JavaUtilities;
+import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.remote.MobileCapabilityType;
+
+public class EndToEndScenario extends BaseClassOfEndToEnd {
+	
+	@Test
+	public void endToEndScenario() {
+		
+//		FileUtilities file=new FileUtilities();
+//		
+//		DriverMethods driverUtility=new DriverMethods();
+		
+		System.out.println("executed");
+		
+//		file.fetchingPropertyData(Iconstant.PROPERTYFILEPATH);
+//		String url = file.loadPropertyFile("url");
+//		String platformName = file.loadPropertyFile("platformName");
+//		String platformVersion = file.loadPropertyFile("platformVersion");
+//		String deviceName = file.loadPropertyFile("deviceName");
+//		String deviceUdid = file.loadPropertyFile("deviceUdid");
+//		String appPackage = file.loadPropertyFile("appPackage");
+//		String appActivity = file.loadPropertyFile("appActivity");
+//		System.out.println(url+"===="+appPackage+"======"+appActivity);
+//		
+//		
+//		
+//		
+//		driverUtility.url(url);
+//		AndroidDriver driver = driverUtility.androidDriver();
+//		
+//		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+//		
+//		driverUtility.launchingApp();
+		
+		
+		
+
+		
+		
+
+		
+
+	}
+
+}

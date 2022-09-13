@@ -1,0 +1,21 @@
+package GenericUtities;
+
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.BeforeTest;
+
+public class BaseClassOfEndToEnd {
+	
+	@BeforeSuite
+	public void beforeSuitMethod() {
+		System.out.println("before Suite Method is Executing");
+	}
+	@BeforeTest
+	public void beforeTestMethod() {
+		System.out.println("before test method is executing");
+	}
+	
+	@BeforeMethod
+	public void before
+
+}

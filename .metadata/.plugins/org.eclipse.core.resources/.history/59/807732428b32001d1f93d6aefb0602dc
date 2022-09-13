@@ -1,0 +1,42 @@
+package stringPrograms;
+
+import java.util.LinkedHashSet;
+
+public class DuplicateInTwoString {
+
+	public static void main(String[] args) {
+		
+		String s="my name is Raj";
+		String s1="my name is king";
+		
+		String str=s+" "+s1;
+		System.out.println(str);
+		
+		String[] str1 = str.split(" ");
+		
+		LinkedHashSet hs=new LinkedHashSet();
+		for(int i=0;i<str1.length;i++) {
+			hs.add(str1[i]);
+		}
+		System.out.println(hs);
+		
+		for (Object it : hs) {
+			
+			int count=0;
+			for(int i=0;i<str1.length;i++) {
+				if(hs.equals(str1[i])) {
+					count++;
+				}
+			}
+			if(count==1) {
+				System.out.println(it);
+			}
+			
+			
+		}
+		
+	
+		
+	}
+
+}

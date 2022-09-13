@@ -1,0 +1,36 @@
+package stringPrograms;
+
+import org.apache.commons.collections.bag.SynchronizedSortedBag;
+
+public class ThreeStringFindMinViewedTimeString {
+
+	public static void main(String[] args) {
+		
+		String s1="movie1 duration 2:30";
+		
+		String s2="movie2 duration 3:00";
+		String s3="movie3 duration 2:10";
+		
+		String[] str1 = s1.split(" ");
+		String[] str2 = s2.split(" ");
+		String[] str3 = s3.split(" ");
+		
+		for(int i=0;i<str1.length;i++) {
+		System.out.print(str1[i]+" ");
+		
+		
+		}
+		System.out.println();
+		for(int i=0;i<str2.length;i++) {
+			System.out.print(str2[i]+" ");
+			
+			}
+		System.out.println();
+		
+		for(int i=0;i<str3.length;i++) {
+			System.out.print(str3[i]+" ");
+			}
+		
+	}
+
+}

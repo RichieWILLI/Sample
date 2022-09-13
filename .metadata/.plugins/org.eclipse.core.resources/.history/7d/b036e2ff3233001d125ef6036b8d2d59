@@ -1,0 +1,46 @@
+package stringPrograms;
+
+import java.util.LinkedHashSet;
+
+import org.testng.annotations.Test;
+
+public class StringArrayFindingVowels {
+
+	
+	@Test
+	public void StringArrayFindingVowels() {
+		
+		//question String str[]={"apple","mango","banana","oragne"}
+		// o/p apple=2
+		//mangao=2
+		//banana=3
+		//oragne=3
+		
+		//sol=there are asking to find the vowel in each string
+		
+		String str[]= {"apple","mango","banana","orange"};
+		
+		for(int i=0;i<str.length;i++) {
+			char[] s=str[i].toCharArray();
+			int count=0;
+			for(int j=0;j<s.length;j++) {
+				if(s[j]=='a' || s[j]=='e' ||s[j]=='i' || s[j]=='o' || s[j]=='u') {
+					count++;
+				}
+			}
+			System.out.println(str[i]+" "+count);
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+	
+	
+}
