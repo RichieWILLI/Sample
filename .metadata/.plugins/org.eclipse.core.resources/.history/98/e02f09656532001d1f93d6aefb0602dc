@@ -1,7 +1,0 @@
-platformName Android
-platformVersion 9
-deviceName RR
-deviceUdid 9a07233
-appPackage io.appium.android.apis
-appActivity com.bigbasket.mobileapp
-url .activity.SplashActivity

@@ -6,7 +6,7 @@ public class SeperatZeroAndOnesFirstZero {
 		
 		int a[]= {0,1,1,0,1};
 		int m=0;
-		int count=2;
+		int count=2; //counting number of zero so count=2 and after zero adding the number in order
 		
 		
 		int b[]=new int[a.length];

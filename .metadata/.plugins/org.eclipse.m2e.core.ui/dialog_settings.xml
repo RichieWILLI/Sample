@@ -2,6 +2,8 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\Richard William\eclipse-workspace\Selenium Workspace\PROJECT_FLIPKART_MOBILE_APPLICATION"/>
+			<item value="C:\Users\Richard William\eclipse-workspace\Selenium Workspace\SDET36L1_SELENIUMFRAMEWORK"/>
 			<item value="C:\Users\Richard William\eclipse-workspace\Selenium Workspace\SDET36L1_SELENIUMFRAMEWORK\pom.xml"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -45,21 +47,12 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
-			<item value="FRAMEWORK_1"/>
-			<item value="Appium"/>
-			<item value="org"/>
 			<item value="org.tyss"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
-			<item value="TYSS"/>
-			<item value="Demo"/>
-			<item value="DUMMYMAVENPROJECT"/>
-			<item value="sample_maven"/>
-			<item value="maven_ExamplePractice"/>
-			<item value="maven_Example"/>
-			<item value="SDET36L1_SELENIUMFRAMEWORKHMS"/>
+			<item value="SEVA_MANDIR_PROJECT"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

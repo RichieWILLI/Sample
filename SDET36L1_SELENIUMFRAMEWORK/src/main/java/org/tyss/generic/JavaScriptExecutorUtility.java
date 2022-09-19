@@ -30,7 +30,9 @@ public class JavaScriptExecutorUtility {
 		js.executeScript("window.scrollBy(0,document.body.scrollHeight)");
 	}
 	
-	
+	public void scroolTillParticularLength() {
+		js.executeScript("window.scrollBy(0,300)");
+	}
 	
 
 }

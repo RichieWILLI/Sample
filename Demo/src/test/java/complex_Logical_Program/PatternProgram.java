@@ -8,22 +8,39 @@ public class PatternProgram {
 //		System.out.println(" 121 ");
 //		System.out.println("12321");
 		
-		int n=5;
-		n=(n+1)/2;
+//		int n=5;
+//		n=(n+1)/2;
+//		
+//		for(int i=0;i<n;i++) {
+//			for(int j=0;j<n-1-i;j++) {
+//				System.out.print(" ");
+//			}
+//			int k=1;
+//			for(int j=0;j<2*i+1;j++) {
+//				System.out.print(""+k);
+//				if(j<((2*i+1)/2)){
+//					k++;
+//				}
+//				else
+//					k--;
+//		
+//			}
+//			System.out.println();
+//		}
 		
-		for(int i=0;i<n;i++) {
-			for(int j=0;j<n-1-i;j++) {
+		int n=3;
+		for(int i=1;i<=n;i++) {
+			for(int j=1;j<=n-i;j++) {
 				System.out.print(" ");
 			}
 			int k=1;
-			for(int j=0;j<2*i+1;j++) {
-				System.out.print(""+k);
-				if(j<((2*i+1)/2)){
+			for(int j=1;j<=2*i-1;j++) {
+				
+				System.out.print(k);
+				if(j<i)
 					k++;
-				}
 				else
 					k--;
-		
 			}
 			System.out.println();
 		}

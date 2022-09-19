@@ -8,7 +8,6 @@ package org.tyss.generic;
 
 public interface IConstantUtility {
 
-	public String VITIGERPROPERTYFILEPATH="src/test/resources/commondata.properties";
-	public String VITIGEREXCELFILEPATH="./src/test/resources/TestData.xlsx";
-	public String RMGYANTRAFILEPATHCOMMONDATA="./src/test/resources/commonDataForDataBase.properties";
+	public String FLIPKARTPROPERTYFILEPATH="src/test/resources/propertyfile.properties";
+	
 }

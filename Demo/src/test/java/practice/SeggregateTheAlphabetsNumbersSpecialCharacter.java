@@ -21,6 +21,12 @@ public class SeggregateTheAlphabetsNumbersSpecialCharacter {
 			}
 			
 		}
+		
+		int sum = Integer.parseInt(num);
+		System.out.println(sum);
+		
+		
+		
 		System.out.println(alpha+num+splch);
 
 		

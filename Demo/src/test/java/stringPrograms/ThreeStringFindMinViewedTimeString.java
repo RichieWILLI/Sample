@@ -39,16 +39,24 @@ public class ThreeStringFindMinViewedTimeString {
 		
 		
 		String str=s1+" "+s2+" "+s3;
-		System.out.println(str);
 		
-		TreeSet set=new TreeSet();
-		for(int i=0;i<str.length();i++) {
-			set.add(str.charAt(i));
+		String[] s = str.split(" ");
+		TreeSet<Character> set=new TreeSet<Character>();
+		
+		System.out.println(str);
+		for(int j=0;j<s.length;j++) {
+			char[] ch = s[j].toCharArray();
+			
+			
+		
+		for(int i=0;i<ch.length;i++) {
+			set.add(ch[i]);
 		}
 		
 		
 		
 		
+		}
 		
 		
 	}
